@@ -1,0 +1,72 @@
+/**{
+background-image:url(bg)}*/
+body{
+	background-image:url(bg3.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size:cover;
+	height:100%;}
+	h1 {color: white;}
+.container{
+        margin: 90px auto;}  
+.main-container {
+		padding: 20px;
+		background:black;
+		width: 250px;
+		border-radius: 20px;
+		margin: 10px auto; }
+#box {  
+        border:2px solid blue; 
+		box-shadow: 5px 5px 10px blue;
+        background:url(bg2.jpg); 
+        font-size: 35px; 
+		width:100%; 
+        height: 50px;
+        text-align: right;
+        color: black;
+		margin: 0 auto;} 
+.button-container {
+	box-shadow: 10px 10px 5px #888888;
+		margin: 10px 5px;
+		background:url(bg);}
+.btn {
+		height: 40px;
+		width: 40px;
+        padding: 10px; 
+        background:url(bg2.jpg); 
+        color: #fff; 
+		border: black;
+        margin: 8px; 
+        font-size: 15px; }
+.btn:hover {background-color: orange;}
+.btn:active {
+  background-color: orange;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);}
+.sol{
+		width:100px;
+		background:#636;}
+.cbtn {
+		background:#A00; }
+.cbtn:hover {background-color: yellow;}
+.cbtn:active {
+  background-color:green ;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);}
+.sol:hover {background-color:yellow;}
+.sol:active{
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);}
+#footer {
+		position:fixed;
+	   	left:0px;
+	   	bottom:0px;
+	   	height:10px;
+	   	width:100%;
+	   	background:blue;
+		text-align: center;
+		margin: 0px auto;
+		padding: 10px;
+		color: #fff;}
+#footer a:link {color: #fff;text-decoration: none;}

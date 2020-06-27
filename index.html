@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+
+<div class="container">
+	<div class="main-container">
+
+		<h1>My Calculator</h1>
+
+		<input id="box" value="" type="text" readonly placeholder="0"><br/>
+
+		<div class="button-container">
+		<div class="row">
+				<button class="btn" onclick="shownum('1')"><b>1</b></button>
+				<button class="btn" onclick="shownum('2')"><b>2</b></button>
+				<button class="btn" onclick="shownum('3')"><b>3</b></button>
+				<button class="btn cbtn" onclick="delback()"><b>del</b></button></div>
+		<div class="row">
+				<button class="btn" onclick="shownum('4')"><b>4</b></button>
+				<button class="btn" onclick="shownum('5')"><b>5</b></button>
+				<button class="btn" onclick="shownum('6')"><b>6</b></button>
+				<button class="btn" onclick="shownum('+')"><b>+</b></button></div>
+		<div class="row">
+				<button class="btn" onclick="shownum('7')"><b>7</b></button>
+				<button class="btn" onclick="shownum('8')"><b>8</b></button>
+				<button class="btn" onclick="shownum('9')"><b>9</b></button>
+				<button class="btn" onclick="shownum('-')"><b>-</b></button></div>
+		<div class="row">
+				<button class="btn" onclick="shownum('.')"><b>.</b></button>
+				<button class="btn" onclick="shownum('0')"><b>0</b></button>
+				<button class="btn" onclick="shownum('10')"><b>10</b></button>
+				<button class="btn" onclick="shownum('*')"><b>*</b></button></div>
+		<div class="row">
+				<button class="btn cbtn" onclick="clearme()"><strong>C</strong></button>
+				<button class="btn sol" onclick="solve()"><strong>=</strong></button>
+				<button class="btn" onclick="shownum('/')"><strong>/</strong></button>
+		</div></div></div></div>
+</body>
+</html>
